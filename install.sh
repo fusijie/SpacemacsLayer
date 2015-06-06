@@ -1,3 +1,3 @@
 #!/bin/sh
 rm ~/.spacemacs
-ln -s .spacemacs ~/.spacemacs
+mv .spacemacs ~/.spacemacs
