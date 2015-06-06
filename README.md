@@ -1,4 +1,4 @@
-# SpacemacsLayer
+# How to use SpacemacsLayer
 
 1.Clone this repo to `~/`.
 
