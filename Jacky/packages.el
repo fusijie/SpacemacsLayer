@@ -17,6 +17,7 @@
       ;; package Jackys go here
       swiper
       markdown-mode
+      youdao-dictionary
       ))
 
 ;; List of packages to exclude.
@@ -38,9 +39,15 @@
       (define-key markdown-mode-map (kbd "s-r") 'Jacky/markdown-to-html)
      )))
 
- 
+
 (defun Jacky/init-swiper()
   (use-package swiper
     :defer t
     :init
     (global-set-key (kbd "C-s") 'swiper)))
+
+(defun Jacky/init-youdao-dictionary()
+  (use-package youdao-dictionary
+    :defer t
+    :init
+   ))

@@ -20,6 +20,7 @@
 (global-set-key (kbd "<s-up>") 'beginning-of-buffer)
 (global-set-key (kbd "C-t") 'ansi-term)
 (global-set-key (kbd "C-x C-d") 'dired)
+(global-set-key (kbd "C-i") 'youdao-dictionary-search-at-point+)
 
 (setq auto-mode-alist
       (append
