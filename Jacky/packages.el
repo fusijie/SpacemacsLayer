@@ -44,10 +44,19 @@
   (use-package swiper
     :defer t
     :init
-    (global-set-key (kbd "C-s") 'swiper)))
+    (progn
+      (global-set-key (kbd "C-s") 'swiper)
+    (ivy-mode 1)
+    (setq ivy-use-virtual-buffers t)
+    (global-set-key "\C-s" 'swiper)
+    (global-set-key "\C-r" 'swiper)
+    (global-set-key (kbd "C-c C-r") 'ivy-resume)
+    (global-set-key [f6] 'ivy-resume))))
 
 (defun Jacky/init-youdao-dictionary()
   (use-package youdao-dictionary
     :defer t
     :init
    ))
+
+

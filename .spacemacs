@@ -151,6 +151,7 @@ before layers configuration."
  This function is called at the very end of Spacemacs initialization after
 layers configuration."
   (global-company-mode t)
+  (golden-ratio-mode t)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
